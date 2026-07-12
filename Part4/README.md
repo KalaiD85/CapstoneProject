@@ -345,7 +345,7 @@ Before calling the LLM, the guardrail checks the constructed user_prompt.
 If PII is detected → block the request (explanation = None).
 If clean → proceed with the LLM call.
 3. Test Case 1: Input with Email (Blocked)
-Regex match: Finds kalaivanicd@example.com.
+Regex match: Finds kalaivanicd@masai.com.
 Result: "Input blocked: PII detected."
 LLM call: Skipped.
 4. Test Case 2: Input without PII (Allowed)
@@ -365,7 +365,7 @@ Ensure sensitive data (emails, phone numbers) never reaches the LLM. Blocked inp
 
 # Test Case 1: Input with Email (Blocked)
 ```python
-test_input_email = "This record belongs to kalaivanicd@example.com"
+test_input_email = "This record belongs to kalaivanicd@masai.com"
 safe_call_llm("system_prompt", test_input_email)
 ```
 Output:
