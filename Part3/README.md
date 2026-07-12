@@ -3,7 +3,7 @@
 Choosen the WM‑811K semiconductor wafer map dataset for the Applied AI & ML Essentials — Capstone Project, because it is one of the largest publicly available, real‑world datasets for defect pattern recognition in semiconductor manufacturing.
 
 # PreRequiste 
-Make sure the cleaned_data.csv is available from Part1 inside the Part1/Output (or) Run Part1 python script and continue with Part1
+Make sure the cleaned_data.csv is available from Part1 inside the Part1/Output (or) If Part1/Output folder contains cleaned_data.zip, run the Part3/Unzip.py to get the dataset file(cleaned_data.csv) in the Part1/Output folder Run Part1 python script and continue with Part3
 # Installation 
 Install the required library to run the python script in Part3 folder
 ```bash 
