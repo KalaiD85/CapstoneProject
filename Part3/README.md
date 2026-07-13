@@ -302,12 +302,13 @@ Best pipeline: Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median'
                 ('standardscaler', StandardScaler()),
                 ('randomforestclassifier',
                  RandomForestClassifier(n_estimators=200, random_state=42))])
-Training fraction | Training AUC | Test AUC
-0.2 | 1.000 | 1.000
-0.4 | 1.000 | 1.000
-0.6 | 1.000 | 1.000
-0.8 | 1.000 | 1.000
-1.0 | 1.000 | 1.000
+| Training fraction | Training AUC | Test AUC |
+| --- | --- | --- |
+| 0.2 | 1.000 | 1.000 |
+| 0.4 | 1.000 | 1.000 |
+| 0.6 | 1.000 | 1.000 |
+| 0.8 | 1.000 | 1.000 |
+| 1.0 | 1.000 | 1.000 |
 
 # Inference
 The model is not data‑limited. Collecting more training data does not improve performance because test AUC has plateaued at 1.000. The model’s capacity is already sufficient, and it has reached its performance ceiling.
