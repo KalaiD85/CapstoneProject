@@ -2,7 +2,8 @@
 
 Choosen the WM‑811K semiconductor wafer map dataset for the Applied AI & ML Essentials — Capstone Project, because it is one of the largest publicly available, real‑world datasets for defect pattern recognition in semiconductor manufacturing.
 
-The Capstone project consists of 4 Parts and the order of excution is Part1 -> Part2 -> Part3 -> Part4
+The Capstone project consists of 4 Parts and the order of excution is Part1 -> Part2 -> Part3 -> Part4. 
+
 Every Part folder contain a README.md that explains what the code does, how to run it (dependencies, commands), and summarises key findings or design decisions.
 
 
